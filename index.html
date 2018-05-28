@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <title>DerivePass - Emoji Password Manager</title>
+
+    <style>
+      body {
+        padding: 24px 0 0 0;
+        background: #111;
+        font-family: -apple-system, BlinkMacSystemFont, Optima, Helvetica,
+            Sans-serif;
+        color: #eee;
+        text-align: center;
+      }
+
+      #app-icon {
+        display: block;
+        margin: 0 auto;
+      }
+
+      h1, h2 {
+        margin: 8px 0 8px;
+        font-weight: normal;
+      }
+
+      h1 {
+        font-size: 32px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+
+      #email, #submit {
+        border: 1px solid #555;
+        line-height: 32px;
+        font-size: 24px;
+        padding: 3px 8px;
+      }
+
+      #submit {
+        background: #fff;
+        color: #111;
+      }
+
+      #emoji {
+        font-size: 48px;
+        line-height: 48px;
+        margin: 24px 0;
+      }
+
+      #links {
+        font-size: 16px;
+        line-height: 32px;
+      }
+
+      #links img {
+        position: relative;
+        top: 10px;
+      }
+
+      #links #github-star-button {
+        position: relative;
+        top: 4px;
+      }
+
+      #social {
+        margin-top: 8px;
+      }
+
+      #video {
+        margin-top: 16px;
+      }
+
+      #support {
+        font-size: 10px;
+        margin-top: 8px;
+        color: #bbb;
+      }
+
+      #support a, #support a:visited {
+        color: #bbb;
+      }
+
+      @media screen and (max-width: 40.5em) {
+        #submit {
+          display: none;
+        }
+
+        #links > span {
+          display: block;
+        }
+
+        #links #github-star-button {
+          margin-top: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img id=app-icon
+          src="/app.png" srcset="/app.png 1x, /app-2x.png 2x" alt="DerivePass"/>
+      <h1>DerivePass</h1>
+      <h2>(Emoji password manager)</h2>
+    </header>
+
+    <section id=subscribe>
+      <form action="//derivepass.us15.list-manage.com/subscribe/post?u=35098635480a9585ff4cf49ca&amp;id=a70c987b1d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
+        <p id=emoji>😬</p>
+        <input type=email name=EMAIL pattern="^[^@\s]+@[^\.@\s]+\.[^@\s]+$" id=email placeholder="email" />
+        <input type=hidden name="b_35098635480a9585ff4cf49ca_a70c987b1d" tabindex="-1" value="">
+        <input type=submit id=submit value="Subscribe" />
+      </form>
+    </section>
+
+    <section id=links>
+      <span>
+        <a href="https://itunes.apple.com/us/app/derivepass/id1195431375">
+          <img id=app-store-icon
+            src="/app-store.svg"
+            alt="Download on the App Store"/>
+        </a>
+      </span>
+      <span id=github-star-button>
+        <a class="github-button"
+            href="https://github.com/derivepass/derivepass-ios"
+            data-style="mega"
+            data-count-href="/derivepass/derivepass-ios/stargazers"
+            data-count-api="/repos/derivepass/derivepass-ios#stargazers_count"
+            data-count-aria-label="# stargazers on GitHub"
+            aria-label="Star derivepass/derivepass-ios on GitHub">
+          Star us on GitHub
+        </a>
+      </span>
+    </section>
+
+    <section id=social>
+      <span id=twitter-button>
+        <a href="https://twitter.com/share?via=derivepass&related=derivepass"
+           class="twitter-share-button" data-show-count="false">
+          Tweet
+        </a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8">
+        </script>
+      </span>
+    </section>
+
+    <section id=video>
+      <iframe width="250" height="445"
+          src="https://www.youtube.com/embed/V7_duBmxqvw?rel=0&amp;controls=0&amp;showinfo=0"
+          frameborder="0" allowfullscreen>
+      </iframe>
+    </section>
+
+    <section id=support>
+      Have questions? Need support? Send us an email:
+      <br/>
+      <a href="mailto:derivepass-support@indutny.com?Subject=DerivePass%20Support">
+        derivepass-support@indutny.com
+      </a>
+    </section>
+
+    <script src="/main.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+    <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-90544957-1', 'auto');
+ga('send', 'pageview');
+    </script>
+  </body>
+</htmL>
